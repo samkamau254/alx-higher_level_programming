@@ -1,2 +1,2 @@
 #!/usr/bin/python3
-b = 98
+a = 98
