@@ -40,3 +40,15 @@ class Square:
         using its size
         """
         return int(self.__size) * int(self.__size)
+
+    def my_print(self):
+        """This method prints the square to stdout
+        using # for each size
+        """
+        if not self.__size:
+            print()
+        else:
+            for i in range(self.__size):
+                for j in range(self.__size):
+                    print("{}".format("#"), end='')
+                print()
