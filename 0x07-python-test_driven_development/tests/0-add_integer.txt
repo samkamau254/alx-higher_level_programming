@@ -1,0 +1,5 @@
+This library contains one function called ``add_integer``
+
+``add_integer`` checks if a and b are floats. If they are,
+it casts them into integers
+Importing the function.
