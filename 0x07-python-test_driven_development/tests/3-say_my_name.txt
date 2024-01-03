@@ -1,0 +1,37 @@
+``say_my_name`` function.
+This function prints out the first and last name.
+The last name is optional and defaults to "".
+
+Import the function say_my_name = __import__('3-say_my_name').say_my_name
+
+Pass empty string
+    say_my_name("")
+    out: My name is  
+
+Pass empty last name
+    say_my_name("Winnie")
+   out:  My name is Winnie 
+
+Pass integer
+    say_my_name(2)
+    Traceback (most recent call last):
+    out: TypeError: first_name must be a string
+
+pass tuple
+    say_my_name((1,))
+    Traceback (most recent call last):
+    out: TypeError: first_name must be a string
+
+pass 2 strings
+    say_my_name("Winnie", "Muteti")
+    out: My name is Winnie Muteti
+
+pass None as last_name
+    say_my_name("Winnie", None)
+    Traceback (most recent call last):
+    out: TypeError: last_name must be a string
+
+Miss 2 args
+    say_my_name()
+    Traceback (most recent call last):
+   out:  TypeError: say_my_name() missing 1 required positional argument: 'first_name'
