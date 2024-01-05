@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-"""This module is called 0-rectangle.
-    defines a rectangle.
+"""This is 0-rectangle.
+    It defines a rectangle.
 """
 
 
 class Rectangle:
     """The class Rectangle defines a rectangle
-    with no instances and attributes.
+    with no instances or attributes.
     """
     pass
