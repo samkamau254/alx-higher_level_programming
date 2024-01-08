@@ -1,11 +1,14 @@
 #!/usr/bin/python3
-""" 2-matrix_divided.contains a function that divides all elaments
+"""This module is called 2-matrix_divided.
+    It contains a function that divides all elaments
     of a matrix
 """
 
+
 def matrix_divided(matrix, div):
     """The function matrix_divided divides all elements of a matrix
-    Arguements:
+
+    Args:
         matrix (list): The matrix to be divided
         div (int or float): The number used to divide each element
         of the matrix
