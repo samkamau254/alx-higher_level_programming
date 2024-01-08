@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 """This module is called 0-add_integer.
 Args:
     a: first int to be added.
@@ -18,4 +19,3 @@ def add_integer(a, b=98):
     a = int(a)
     b = int(b)
     return a + b
-
