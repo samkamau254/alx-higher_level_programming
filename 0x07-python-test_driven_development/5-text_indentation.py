@@ -1,12 +1,15 @@
 #!/usr/bin/python3
-"""5-text_indentation, a function that prints a text with 2 new lines after
+"""This module is called the 5-text_indentation.
+It defines a function that prints a text with 2 new lines after
 each of these characters: ., ? and :
 """
+
+
 def text_indentation(text):
     """This function prints a text with 2 new lines after
     each of these characters: ., ? and :
 
-    Arguements:
+    Args:
         text (str): string to be split
 
     Raises:
