@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 """This module is called 0-add_integer.
-Arguements used:
-  a: first int to be added.
-  b: second int to be added.
+Args:
+    a: first int to be added.
+    b: second int to be added.
 """
 
 
